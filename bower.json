@@ -1,0 +1,25 @@
+{
+  "name": "simplymigrate",
+  "description": "Things to do before starting:",
+  "main": "gulpfile.js",
+  "authors": [
+    "jascination <james@agoodman.com.au>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jascination/simplymigrate",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-material": "~1.0.5",
+    "angular-route": "~1.5.0",
+    "nvd3": "~1.8.2",
+    "angular-nvd3": "~1.0.5"
+  }
+}

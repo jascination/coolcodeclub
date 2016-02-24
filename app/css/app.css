@@ -1,0 +1,98 @@
+/* roboto-300 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/roboto-v15-latin-300.eot');
+  /* IE9 Compat Modes */
+  src: local('Roboto Light'), local('Roboto-Light'), url('/fonts/roboto-v15-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('/fonts/roboto-v15-latin-300.svg#Roboto') format('svg');
+  /* Legacy iOS */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/roboto-v15-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local('Roboto'), local('Roboto-Regular'), url('/fonts/roboto-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('/fonts/roboto-v15-latin-regular.svg#Roboto') format('svg');
+  /* Legacy iOS */
+}
+/* roboto-condensed-700 - latin */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/roboto-condensed-v13-latin-700.eot');
+  /* IE9 Compat Modes */
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url('/fonts/roboto-condensed-v13-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('/fonts/roboto-condensed-v13-latin-700.svg#RobotoCondensed') format('svg');
+  /* Legacy iOS */
+}
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+  display: none !important;
+}
+html {
+  background-color: #000;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+.home-hero {
+  max-width: 1600px;
+  width: 100%;
+  margin-top: 60px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.home-hero .btn-contain {
+  margin-top: 60px;
+}
+.home-hero .left {
+  width: 50%;
+  padding: 40px;
+}
+.home-hero .right {
+  width: 50%;
+  padding: 0 40px;
+}
+.home-hero .right .tix {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-hero .right .tix .btn {
+  padding: 0 40px;
+  cursor: pointer;
+}
+.hero {
+  width: 100%;
+  display: block;
+}
+.btn.cool {
+  background: transparent;
+  color: #ccc;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  background-color: #f81991;
+  border-color: #ec8797;
+  border-width: 4px;
+}

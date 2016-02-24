@@ -1,0 +1,32 @@
+{
+  "name": "simplymigrate",
+  "version": "1.0.0",
+  "description": "Things to do before starting:",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "connect-history-api-fallback": "^1.1.0",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "bower-files": "^3.11.3",
+    "browser-sync": "^2.11.1",
+    "del": "^2.2.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-jade-inheritance": "^0.5.4",
+    "gulp-less": "^3.0.5",
+    "gulp-uglify": "^1.5.2",
+    "gulp-watch": "^4.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jascination/simplymigrate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jascination/simplymigrate/issues"
+  },
+  "homepage": "https://github.com/jascination/simplymigrate#readme"
+}
