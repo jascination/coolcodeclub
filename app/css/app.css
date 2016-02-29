@@ -158,8 +158,8 @@ section.signup {
 section.signup .header {
   color: #FFF700;
   opacity: 0.3;
-  font: bold 19vw 'oswald';
-  line-height: 270px;
+  font: bold 17vw 'oswald';
+  line-height: 19vw;
   position: absolute;
   text-transform: uppercase;
   top: 40px;
