@@ -1,55 +1,72 @@
 extends layout
 
 block body
-  .home-hero
-    .left
-      img.hero(src="/img/cool-code-club.png")
-    .right
-      h1 ???
-      p Web development is a skillset built entirely on sharing.
+  section.main
+    .text
+      .left
+        span Code
+        span Club.
+      .right Cool.
+      
+  section.what
+    .text
+      h1 Excuse me?
+      p Code Club Cool is a once-weekly chance to learn to build websites.
+      p It's aimed at Melbourne's young creatives, with the goal of making coding accessible and approachable.
+      p Classes are free-form in style; sometimes we'll do self-paced tutorials, sometimes we'll do structured classes, sometimes we'll drink beers and talk about which pokemon was best (Psyduck).
+  section.who
+    .text
+      h1 
+        span That
+        span Sounds
+        span Really
+        span Cool
+      .left-text
+        p Thanks! I think you're cool too. 
+        p Building websites is (a) really fun and satisfying, (b) personally empowering and (c) a lucrative career/side-job, and I'd like to share that skill with people.
+        p If you have a friend who you want to bring along, please do - the more the merrier.
+        p (but we'll cap the classes at 30 people)
+  section.price
+    .text
+      .header.bg-text
+        h1 
+          span $
+          span $
+          span $
+        h2 $$$
+      .center-text
+        p It's free! Totally free. No catches. 
+        p 
+          | Classroom space is being donated by the very good people at 
+          a(href="http://collectivecamp.us", target="_blank") Collective Campus
+          | , and instructors will all be volunteers.
+        p In the future, we'll aim at launching a skill-sharing programme where you'll teach these skills to recent migrants, refugees, asylum seekers and under-privileged children. 
+        p But let's focus on teaching you the basics first.
+  section.signup
+    .text
+      .header.bg-text
+        span Let's
+        span Do
+        span This 
+      .text-body
+        ul
+          li 
+            strong When: 
+            | Every Monday, 6pm - 8.30pm
+          li
+            strong Where: 
+            | Collective Campus, Level 1 / 20 Queen St Melbourne 
+          li
+            strong Bring: 
+            | A laptop, a few bucks for pizza, a few bucks for bevvies
+          li 
+            strong What: 
+            | You can work on any project you like. If you don't have any ideas, James will make up a weird one for you.
 
-      p Nearly everyone who builds websites learned using tools made by incredibly generous people who wanted to share their craft with the world.
-
-      p Cool Code Club is a weekly meetup for learning web development, creating cool things and good old fashioned nerding out.
-
-      p It's completely free. But there's a twist.
-
-      h1 !!!
-
-      p Shh, it's a good twist. Each week we'll ask for a donation, put towards buying laptops for underprivileged children, asylum seekers and refugees.
-
-      p We'll also ask you to consider passing on your new-found skills to these people. It's easier than you think.
-
-      h1 Who!
-
-      p You! Plus James' cool mates and mates of James' cool mates! 
-      .tix
-        h1 Details!
-        a.btn.cool(href="https://www.eventbrite.com.au/e/cool-code-club-tickets-22162301039", target="_blank") GET TIX
-
-      ul
-        li 
-          strong When: 
-          | Every Monday, 6pm - 8.30pm
-        li
-          strong Where: 
-          | Collective Campus, Level 1 / 20 Queen St Melbourne 
-        li
-          strong Bring: 
-          | A laptop, a few bucks for pizza, a few bucks for bevvies
-        li 
-          strong What: 
-          | You can work on any project you like. If you don't have any ideas, James will make up a weird one for you.
+        p
+          | Please download and install 
+          a(href="https://www.sublimetext.com/", target="_blank") Sublime Text 
+          | before the first class.
         
-
-//
-  script(src='/js/lib.min.js')
-  script(src='/js/app.js')
-  script(src='/js/services.js')
-  script(src='/js/toolbeltService.js')
-  script(src='/js/controllers.js')
-  script(src='/js/filters.js')
-  script(src='/js/directives.js')
-  
-  // script.
-  // Google Analytics Script Goes Here
+        p 
+          a.btn.cool(href="https://www.eventbrite.com.au/e/cool-code-club-tickets-22162301039", target="_blank") RSVP
