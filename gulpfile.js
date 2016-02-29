@@ -15,7 +15,7 @@ var serve = require('gulp-serve');
 
 gulp.task('serve-prod', serve({
   root: ['./app'],
-  port: 3002
+  port: 3001
 }));
 // Bower Files Injecting
 
