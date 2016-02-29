@@ -10,6 +10,13 @@ var jade         = require('gulp-jade');
 var history      = require('connect-history-api-fallback');
 var lib          = require('bower-files')();
 var del          = require('del');
+var serve = require('gulp-serve');
+ 
+
+gulp.task('serve-prod', serve({
+  root: ['./app'],
+  port: 3002
+}));
 // Bower Files Injecting
 
 gulp.task('bowerJS', function() {
@@ -28,7 +35,7 @@ gulp.task('bowerCSS', function() {
     });
 });
 
-
+gulp
 
 // Static Server + watching scss/html files
 gulp.task('serve', [/*'bowerJS', 'bowerCSS',*/ 'less', 'templates'], function() {

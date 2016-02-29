@@ -5,7 +5,8 @@
   "main": "gulpfile.js",
   "dependencies": {
     "connect-history-api-fallback": "^1.1.0",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-serve": "^1.2.0"
   },
   "devDependencies": {
     "bower-files": "^3.11.3",
